@@ -13,3 +13,4 @@ class player:
     
     def draw(self, screen):
         pygame.draw.rect(screen, self.color, self.rect, width=0, border_radius=2)
+    
