@@ -47,7 +47,6 @@ while running:
         player.xvel -= config.addplayervel
     if keys[pygame.K_d]:
         player.xvel += config.addplayervel
-
     if not paused:
         if len(balls) <=  0:
             beaten = True
